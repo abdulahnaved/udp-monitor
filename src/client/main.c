@@ -154,6 +154,15 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    // v1: client REGISTER with server
+    pid_t my_pid = getpid();
+    char regbuf[64];
+    int rlen = snprintf(regbuf, sizeof(regbuf), "REGISTER pid=%d", my_pid);
+    // send registration
+    sendto(sock, regbuf, rlen, 0,
+          (struct sockaddr *)&srv, sizeof(srv));
+
+
     // 4) Prep for loop
     int seq = 0, sent = 0, received = 0, lost = 0;
     double rtts[WINDOW];
