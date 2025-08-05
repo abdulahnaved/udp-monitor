@@ -1,0 +1,18 @@
+# CLI spec (human-readable, not code)
+
+Required:
+  --mode {server|client}
+
+Server-only:
+  --door <int>               (default: 5000)
+
+Client-only:
+  --address <ip-or-host>     (default: 127.0.0.1)
+  --door <int>               (default: 5000)
+  --rate_ms <int>            (default: 500)
+  --timeout_ms <int>         (default: 2000)
+  --window <int>             (default: 10)
+
+Examples (later):
+  microlink --mode server --door 5000
+  microlink --mode client --address 127.0.0.1 --door 5000 --rate_ms 500
