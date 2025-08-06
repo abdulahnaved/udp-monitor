@@ -1,0 +1,60 @@
+execl: No such file or directory
+execl: No such file or directory
+SERVER: listening on port 5000 (verbose)
+execl: No such file or directory
+SERVER: listening on port 5000 (verbose)
+SERVER: listening on port 5000 (verbose)
+SERVER: listening on port 5000 (verbose)
+SERVER: listening on port 5000 (lane 0)
+SERVER: listening on port 6000 (lane 1)
+SERVER: listening on port 7000 (lane 2)
+SERVER: registered pid=1072 as client[0]
+SERVER: delaying 36ms chaos
+echoed 10 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(0/0/0) → trg=0 want=0
+SERVER: delaying 121ms chaos
+echoed 10 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(0/1/1) → trg=0 want=0
+SERVER: delaying 104ms chaos
+echoed 10 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(0/2/2) → trg=0 want=0
+SERVER: delaying 23ms chaos
+echoed 10 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(0/0/3) → trg=1 want=1
+SERVER: told pid=1072 → lane1(port=6000)
+SERVER: delaying 123ms chaos
+echoed 10 bytes to 127.0.0.1:59100
+SERVER: delaying 113ms chaos
+echoed 10 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(1/0/4) → trg=1 want=1
+SERVER: delaying 89ms chaos
+echoed 10 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(2/0/5) → trg=1 want=1
+SERVER: dropping for chaos
+DBG[0]: pid=1072 L/S/J=(3/0/6) → trg=2 want=2
+SERVER: delaying 126ms chaos
+echoed 10 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(4/1/7) → trg=2 want=2
+SERVER: delaying 6ms chaos
+echoed 11 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(5/0/8) → trg=2 want=2
+SERVER: delaying 97ms chaos
+echoed 11 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(6/0/9) → trg=2 want=2
+SERVER: delaying 16ms chaos
+echoed 11 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(7/0/10) → trg=2 want=2
+SERVER: delaying 39ms chaos
+echoed 11 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(8/0/11) → trg=2 want=2
+SERVER: delaying 134ms chaos
+echoed 11 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(9/1/12) → trg=2 want=2
+SERVER: told pid=1072 → lane2(port=7000)
+SERVER: delaying 79ms chaos
+echoed 11 bytes to 127.0.0.1:59100
+SERVER: delaying 99ms chaos
+echoed 11 bytes to 127.0.0.1:59100
+DBG[0]: pid=1072 L/S/J=(10/0/13) → trg=2 want=2
+SERVER: dropping for chaos
+DBG[0]: pid=1072 L/S/J=(11/0/14) → trg=2 want=2

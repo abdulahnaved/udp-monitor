@@ -1,0 +1,28 @@
+CLIENT: sent registration → REGISTER pid=1014
+seq=1 rtt_ms=134.4 loss=0 window_swing_ms=0.0
+seq=2 rtt_ms=33.7 loss=0 window_swing_ms=100.7
+seq=3 rtt_ms=26.7 loss=0 window_swing_ms=107.7
+seq=4 rtt_ms=80.8 loss=0 window_swing_ms=107.7
+CLIENT: switching from port 5000 to 6000
+seq=5 rtt_ms=NA loss=1 window_swing_ms=unchanged (got CONTROL)
+seq=6 rtt_ms=0.1 loss=1 window_swing_ms=134.3
+seq=7 rtt_ms=0.2 loss=1 window_swing_ms=134.3
+seq=8 rtt_ms=91.7 loss=1 window_swing_ms=134.3
+seq=9 rtt_ms=22.6 loss=1 window_swing_ms=134.3
+seq=10 rtt_ms=43.8 loss=1 window_swing_ms=134.3
+seq=11 rtt_ms=30.6 loss=1 window_swing_ms=134.3
+seq=12 rtt_ms=99.9 loss=1 window_swing_ms=99.8
+seq=13 rtt_ms=NA loss=2 window_swing_ms=unchanged
+seq=14 rtt_ms=118.5 loss=2 window_swing_ms=118.4
+CLIENT: switching from port 6000 to 7000
+seq=15 rtt_ms=NA loss=3 window_swing_ms=unchanged (got CONTROL)
+seq=16 rtt_ms=0.2 loss=3 window_swing_ms=118.4
+seq=17 rtt_ms=94.6 loss=3 window_swing_ms=118.4
+seq=18 rtt_ms=6.7 loss=3 window_swing_ms=118.4
+seq=19 rtt_ms=108.9 loss=3 window_swing_ms=118.3
+seq=20 rtt_ms=119.3 loss=3 window_swing_ms=119.1
+seq=21 rtt_ms=124.9 loss=3 window_swing_ms=124.8
+seq=22 rtt_ms=28.9 loss=3 window_swing_ms=124.8
+seq=23 rtt_ms=19.5 loss=3 window_swing_ms=124.8
+seq=24 rtt_ms=24.0 loss=3 window_swing_ms=124.8
+seq=25 rtt_ms=1
