@@ -197,12 +197,12 @@ int main(int argc, char *argv[]) {
                 client_t *c = &clients[i];
                 if (c->pid != pid) continue;
 
-                // 🔄 update rolling RTT window
+                // update rolling RTT window
                 c->rtts[c->history_idx] = (rtt < 0 ? 0.0 : rtt);
                 if (c->rtt_count < 10) c->rtt_count++;
                 c->history_idx = (c->history_idx + 1) % 10;
 
-                // 🔢 streaks
+                // streaks
                 c->loss_streak = (loss > 0 ? c->loss_streak + 1 : 0);
                 c->slow_streak = (rtt > 100.0 ? c->slow_streak + 1 : 0);
                 // compute swing
@@ -214,7 +214,7 @@ int main(int argc, char *argv[]) {
                 double swing = mx - mn;
                 c->jitter_streak = (swing > 20.0 ? c->jitter_streak + 1 : 0);
 
-                // 🎯 decide new lane
+                // decide new lane
                 int triggers = (c->loss_streak >= 3)
                              + (c->slow_streak >= 3)
                              + (c->jitter_streak >= 3);
@@ -236,7 +236,7 @@ int main(int argc, char *argv[]) {
                     fflush(stdout);
                 }
 
-                // 🚦 send CONTROL if it’s time to switch
+                // send CONTROL if it’s time to switch
                 long now = get_now_ms();
                 if (desired != c->current_lane
                     && now >= c->cooldown_until_ms) {
