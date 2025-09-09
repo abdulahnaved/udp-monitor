@@ -1,8 +1,8 @@
-# 🚀 UDP Monitor - Network Lane Switching System
+# UDP Monitor - Network Lane Switching System
 
 A real-time UDP monitoring tool that demonstrates **network resilience** through automatic lane switching, having multiple network paths and automatically switching to the best one when problems occur.
 
-## 🎯 What Does This Do?
+## What Does This Do?
 
 Imagine you have 3 network connections:
 - **🟢 Green Lane (Fast)** - Your primary connection
@@ -71,17 +71,17 @@ CLIENT: switching from port 5000 to 6000  ← Client obeys and switches
 
 **What makes this special:**
 
-- **🏭 Server = Parent Process**: Manages everything
-- **👶 Clients = Child Processes**: Automatically spawned by server
-- **🔗 Parent-Child Communication**: Server monitors and controls children
-- **🎯 Realistic Testing**: Additional manual clients can connect too
+- ** Server = Parent Process**: Manages everything
+- ** Clients = Child Processes**: Automatically spawned by server
+- ** Parent-Child Communication**: Server monitors and controls children
+- ** Realistic Testing**: Additional manual clients can connect too
 
 When you run the server, you get:
 - **3 automatic children** (parent spawns via `fork()`)
 - **Optional manual clients** (test scripts can add more)
 - **Complete process management** (parent controls all children)
 
-## 📊 Structured JSON Logging
+## Structured JSON Logging
 
 Every event is logged as structured JSON:
 
@@ -133,7 +133,7 @@ Every event is logged as structured JSON:
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 udp-monitor/
